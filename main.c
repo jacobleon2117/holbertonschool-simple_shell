@@ -15,4 +15,4 @@ int main(void)
 /* This line declares an external variable environ which is a pointer to a pointer to a character. This variable is typically used in C programs to access the environment variables of the process. */
 	extern char **environ;
 }
-	
+In summary, this code is preparing for dynamic memory allocation of character arrays (strings) and pointers to these arrays. The malloc function is used to allocate memory blocks of a certain size, and these memory blocks can be used to store strings or sequences of characters. The extern keyword is used to declare an external variable that is defined in another file.	
