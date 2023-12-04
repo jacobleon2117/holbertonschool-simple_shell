@@ -6,7 +6,7 @@
 
 <details><summary>Table of Contents</summary>
   
-- `Introduction`: <i>An introduction to the simple shell</i>
+- `Introduction`: <i>An introduction to the simple shell</i></details>
 
 
 * [![Next][Next.js]][Next-url]
