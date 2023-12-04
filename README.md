@@ -1,8 +1,6 @@
-<br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-  ![Simple Shell](https://github.com/jacobleon2117/holbertonschool simple_shell/assets/143765559/7cfa4857-de7c-44ac-8997-ab431b0405b6)" alt="Logo" width="80" height="80">
-  </a>
+
+![Simple Shell](https://github.com/jacobleon2117/holbertonschool-simple_shell/assets/143765559/863e4d0a-8ed1-4a4d-9ab5-d2a458c6b71e)
+
 
 <h3 align="center">project_title</h3>
 
