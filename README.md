@@ -2,7 +2,7 @@
 
 <h1 align="center">SIMPLE SHELL</h1>
   
-  - `What's a shell?`: <i>fef</i>
+  - `How does a shell work?`: <i>Shells provide a way for you to communicate with the operating system. This communication is carried out either interactively or as a shell script.</i>
   
   <p align="center">Shells provide a way for you to communicate with the operating system. 
     This communication is carried out either interactively or as a shell script</p>
