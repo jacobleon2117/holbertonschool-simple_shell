@@ -3,7 +3,9 @@
 
 <h3 align="center">SIMPLE SHELL</h3>
 
-<details>
-  <summary>Table of Contents</summary>
-    <li><a href="#Files">Files</a></li>
-</details>
+- `Introduction`: <i>An introduction to our custom printf function</i>
+- `Format Specifiers`: <i>The format specifiers that are used in our code</i>
+- `Headers`: <i>The Headers we implemented</i>
+- `Prototype's`: <i>Prototype's we made</i>
+- `FlowChart`: <i>A flow chart explaining the execution process of our function</i>
+- `Clone REPO`: <i>link to clone this repo</i></details>
