@@ -5,12 +5,10 @@
 <h3 align="center">What's a shell?</h3>
 <p align="center">Shells provide a way for you to communicate with the operating system. This communication is carried out either interactively or as a shell script</p>
 
-| Format Specifiers | |
+| Shell | |
 | ------------- | ------------- |                
-| %s  | Format / Print Strings  |                 
-| %c  | Format / Print Characters  |
-| %i  | Format / Print Integers  |
-| %d  | Format / Print Decimal Numbers |
+| %What's a Shell?  | Format / Print Strings  |                 
+
 
 <details><summary>Table of Contents</summary>
   
