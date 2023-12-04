@@ -4,9 +4,9 @@
 <h4 align="center">What's a shell?</h4>
 <p align="center">Shells provide a way for you to communicate with the operating system. This communication is carried out either interactively or as a shell script</p>
 
+* [![Next][Next.js]][Next-url]
+
+
 <details><summary>Table of Contents</summary>
   
 - `Introduction`: <i>An introduction to the simple shell</i></details>
-
-
-* [![Next][Next.js]][Next-url]
