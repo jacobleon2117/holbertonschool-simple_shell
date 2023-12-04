@@ -3,7 +3,9 @@
 <h1 align="center">SIMPLE SHELL</h1>
 
   <h3 align="center">What's a shell?</h3>
-  - `get_spec_func`: <i>int get_spec_func(char *str, va_list args, int i)</i>
+  
+  - `What's a shell?`: <i>int get_spec_func(char *str, va_list args, int i)</i>
+  
   <p align="center">Shells provide a way for you to communicate with the operating system. 
     This communication is carried out either interactively or as a shell script</p>
              
