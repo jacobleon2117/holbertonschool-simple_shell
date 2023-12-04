@@ -1,5 +1,4 @@
-
-![Simple Shell](https://github.com/jacobleon2117/holbertonschool-simple_shell/assets/143765559/863e4d0a-8ed1-4a4d-9ab5-d2a458c6b71e)
+![Simple Shell](https://github.com/jacobleon2117/holbertonschool-simple_shell/assets/143765559/2792ca24-c8a1-4eff-895b-7dfdb14c4067)
 
 
 <h3 align="center">SIMPLE SHELL</h3>
