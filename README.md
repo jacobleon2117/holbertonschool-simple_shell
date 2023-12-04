@@ -2,7 +2,7 @@
 
 <h3 align="center">SIMPLE SHELL</h3>
 <h4 align="center">What's a shell?</h4>
-<
+<p align="center">Shells provide a way for you to communicate with the operating system. This communication is carried out either interactively or as a shell script</p>
 
 <details><summary>Table of Contents</summary>
   
