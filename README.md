@@ -5,5 +5,5 @@
 
 <details>
   <summary>Table of Contents</summary>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#Files">Files</a></li>
 </details>
