@@ -7,7 +7,7 @@
 
 | Shell | |
 | ------------- | ------------- |                
-| %What's a Shell?  | Format / Print Strings  |                 
+| What's a Shell?  | Format / Print Strings  |                 
 
 
 <details><summary>Table of Contents</summary>
