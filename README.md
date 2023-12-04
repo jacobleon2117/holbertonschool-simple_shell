@@ -2,7 +2,7 @@
 ![Simple Shell](https://github.com/jacobleon2117/holbertonschool-simple_shell/assets/143765559/863e4d0a-8ed1-4a4d-9ab5-d2a458c6b71e)
 
 
-<h3 align="center">project_title</h3>
+<h3 align="center">SIMPLE SHELL</h3>
 
   <p align="center">
     project_description
