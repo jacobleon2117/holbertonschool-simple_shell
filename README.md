@@ -3,6 +3,7 @@
 
 <h3 align="center">SIMPLE SHELL</h3>
 <details><summary>Table of Contents</summary>
+  
 - `Introduction`: <i>An introduction to our custom printf function</i>
 - `Format Specifiers`: <i>The format specifiers that are used in our code</i>
 - `Headers`: <i>The Headers we implemented</i>
