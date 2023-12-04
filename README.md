@@ -5,7 +5,5 @@
 
 <details>
   <summary>Table of Contents</summary>
-  <ol>
     <li><a href="#usage">Usage</a></li>
-  </ol>
 </details>
