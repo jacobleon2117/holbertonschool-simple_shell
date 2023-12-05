@@ -5,7 +5,8 @@
 <h1 align="center">SIMPLE SHELL</h1>
 
 - `How does a shell work?`: <i>Shells provide a way for you to communicate with the operating system. This communication is carried out either interactively or as a shell script.</i>
-             
+- `How does my simple shell work?`: <i>blah blah blah</i>
+
 <details><summary>Table of Contents</summary>
   
 - `Introduction`: <i>An introduction to the simple shell</i></details>
