@@ -2,7 +2,7 @@
 
 ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-<h1 align="center">SIMPLE SHELL</h1>
+<h1 align="center">Introduction</h1>
 
 - `How does a shell work?`: <i>Shells provide a way for you to communicate with the operating system. This communication is carried out either interactively or as a shell script.</i>
 - `How does my simple shell work?`: <i>blah blah blah</i>
