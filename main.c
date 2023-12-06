@@ -1,53 +1,74 @@
-#include "shell.h"
-#include <stdlib.h>
-#include <unistd.h>
-#include <string.h>
-#include <stdio.h>
-#include <sys/stat.h>
-#include <sys/wait.h>
+#include "header.h"
 
-/*
- * main - entry point of function
+/**
+ * main - Recreation of shell.
  *
- *
+ * Return: 0 On success.
  */
 
 int main(void)
 {
-	char *MyBuffer = malloc(buffsize * sizeof(char));
-	char *route = NULL, *strcheck = NULL, **token = NULL, **routes = NULL;
-	size_t buffsize = 1024;
-	extern char **environ;
-	route = get_path(environ);
-	routes = tokenize(route, ":");
+	char *buffer = NULL;
+	size_t bufsize = 0;
+	ssize_t lineSize;
+	char *path = getenv("PATH");
+	char *path_copy = strdup(path);
+	char *args[10];
+	int i;
 
-	if (MyBuffer == NULL)
-	{
-		perror("Error, Inadequate Memory");
-		exit(1);
+	while (1) {
+		if (isatty(STDIN_FILENO))
+		{
+			printf("Enter a command\n");
+		}
+
+		lineSize = getline(&buffer, &bufsize, stdin);
+		if (lineSize == -1) {
+			if (feof(stdin)) {
+			/* End of file (Or input?) Which stops the while loop */
+				break;
+			}
+			else if (ferror(stdin))
+			{
+				/* This is an error. What should the error message be?*/
+				perror("getline");
+				break;
+			}
+		}
+
+		/* Remove the newline */
+		buffer[strcspn(buffer, "\n")] = '\0';
+		i = 0;
+		args[i] = strtok(buffer, " ");
+		while (args[i] != NULL && i < 9)
+		{
+			i++;
+			args[i] = strtok(NULL, " ");
+		}
+		args[i] = NULL;
+
+		if (args[0] != NULL)
+		{
+			if (strcmp(args[0], "copy") == 0)
+			{
+				if (args[1] != NULL && args[2] != NULL)
+				{
+					copyFile(args[1], args[2]);
+				}
+				else
+				{
+					/*This is an error */
+					printf("Usage: copy source_file destination_file\n");
+				}
+			}
+			else
+			{
+				executeCommand(args[0], args, path_copy);
+			}
+		}
 	}
-	while (1)
-	{
-		if (isatty(STDIN_FILEND))
-			printf("$ ");
-		getline(&MyBuffer, &buffsize, stdin);
-		if (exit_check(MyBuffer) == 1 || feof(stdin) != 0)
-			break;
-		strcheck = space_check(MyBuffer);
-		if (strcmp(strcheck, " ") == 0 || strcmp(strcheck, "") == 0)
-			continue;
-		token = tokenize(strcheck, " ");
-		forkit(routes, token);
-		fflush(stdout);
-		free_array(token);
-		token = NULL;
-		free(strcheck);
-		strcheck = NULL;
-	}
-	free_array(routes);
-	free(MyBuffer);
-	fflush(stdout);
-	free(strcheck);
-	free(route);
-	exit(0);
+
+	free(buffer);
+	free(path_copy);
+	return 0;
 }
