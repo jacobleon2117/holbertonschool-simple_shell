@@ -15,7 +15,7 @@
 int main(void)
 {
 	char *MyBuffer = malloc(buffsize * sizeof(char));
-	char *route = NULL, *strcheck = NULL, **token = NULL, **route = NULL;
+	char *route = NULL, *strcheck = NULL, **token = NULL, **routes = NULL;
 	size_t buffsize = 1024;
 	extern char **environ;
 	route = get_path(environ);
@@ -30,7 +30,7 @@ int main(void)
 	{
 		if (isatty(STDIN_FILEND))
 			printf("$ ");
-		getline(&Mybuffer, &buffsize, stdin);
+		getline(&MyBuffer, &buffsize, stdin);
 		if (exit_check(MyBuffer) == 1 || feof(stdin) != 0)
 			break;
 		strcheck = space_check(MyBuffer);
