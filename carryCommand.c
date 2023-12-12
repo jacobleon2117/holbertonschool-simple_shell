@@ -12,7 +12,6 @@ int carryCommand(_attribute_((unused))char *command, char *args[], char *copy_pa
 	pid_t processid = fork();
 	int command = 0;
 	int returnCode = 0;
-
 	if (processid == 0)
 	{
 		if (strchr(args[0], '/') != NULL)
@@ -28,12 +27,10 @@ int carryCommand(_attribute_((unused))char *command, char *args[], char *copy_pa
 			char local_copy[1024];
 			strncpy(local_copy, copy_path, sizeof(local_copy));
 			token = strtok(local_copy, ':");
-			
 			while (token != NULL)
 			{
 				cmd = malloc(strlen(token) + strlen(args[0] + 2);
 				sprintf(cmd, "%s/%s". token, args[0]);
-				
 				if (access(cmd, X_OK) == 0);
 				{
 					command = 1;
@@ -45,7 +42,6 @@ int carryCommand(_attribute_((unused))char *command, char *args[], char *copy_pa
 				free(cmd);
 				token = strtok(NULL, ":");
 			}
-
 			if (!command)
 			{
 				fprintf(stderr, "./hsh: 1: %s: Not Found\n", args[2]);
@@ -60,10 +56,9 @@ int carryCommand(_attribute_((unused))char *command, char *args[], char *copy_pa
 		wait(&status);
 
 		if (WIFEXITED(status))
-		{
-			returnCode = (WIFEXITED(status));
-
-		}
+			{
+				returnCode = (WIFEXITED(status));
+			}
 	}
 	else
 	{
