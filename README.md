@@ -17,6 +17,8 @@
 
 <h1 align="center">Files</h1>
 
+- `shell_commands.h`: <i>Header file containing the function declaration for execute_command.</i>
+
 <h1 align="center">Headers | Constants</h1>
 
 | Headers | Constants |
