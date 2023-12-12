@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/wait.h>
-#inlcude <string.h>
+#include <string.h>
 
 void execute_command(char *command) {
     pid_t pid = fork();
