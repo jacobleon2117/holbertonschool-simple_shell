@@ -32,7 +32,7 @@
 
 <h1 align="center">FlowChart</h1>
 
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/85044b52-deef-498d-9a5e-56b703418cfc" id="mtzVLzHJV5FX"></iframe></div>
+![Blank diagram](https://github.com/jacobleon2117/holbertonschool-simple_shell/assets/143765559/34eba705-5e7d-4abb-9d02-e20ae3d9356b)
 
 <h1 align="center">Installation | Compilation</h1>
 
