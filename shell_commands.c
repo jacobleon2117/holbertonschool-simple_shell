@@ -5,6 +5,7 @@
 #include <sys/wait.h>
 
 void execute_command(char *command) {
+    /* create a new process */
     pid_t pid = fork();
 
     if (pid == 0) {
