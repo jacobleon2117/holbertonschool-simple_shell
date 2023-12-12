@@ -1,17 +1,16 @@
 #include "shell_commands.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include <unistd.h>
 #include <sys/wait.h>
 
-void execute_command(char *command, char *arguments[]) {
+void execute_command(char *command) {
     pid_t pid = fork();
 
     if (pid == 0) {
         // Child process
-        execvp(command, arguments);
-        // If execvp fails, print an error and exit
+        execlp(command, command, (char *)NULL);
+        // If execlp fails, print an error and exit
         perror("Execution failed");
         exit(EXIT_FAILURE);
     } else if (pid < 0) {

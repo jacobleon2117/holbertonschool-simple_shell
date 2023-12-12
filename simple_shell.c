@@ -12,6 +12,7 @@ int main() {
         // Display prompt and get user input
         printf("$ ");
         if (fgets(input, MAX_INPUT_SIZE, stdin) == NULL) {
+            // Handle end-of-file condition (Ctrl+D)
             break;
         }
 
@@ -26,21 +27,8 @@ int main() {
             break;
         }
 
-        // Split the input into command and arguments
-        char *token = strtok(input, " ");
-        char *command = token;
-        char *arguments[MAX_INPUT_SIZE];
-        int i = 0;
-
-        // Fill the arguments array
-        while (token != NULL) {
-            arguments[i++] = token;
-            token = strtok(NULL, " ");
-        }
-        arguments[i] = NULL;  // Set the last element to NULL for execvp
-
         // Execute the command
-        execute_command(command, arguments);
+        execute_command(input);
     }
 
     return 0;
