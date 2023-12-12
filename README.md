@@ -18,6 +18,8 @@
 <h1 align="center">Files</h1>
 
 - `shell_commands.h`: <i>Header file containing the function declaration for execute_command.</i>
+- `shell_commands.c`: <i>Contains the implementation of the execute_command function.</i>
+- `simple_shell.c`: <i>Main file that orchestrates the interaction with the user and calls the execute_command function.</i>
 
 <h1 align="center">Headers | Constants</h1>
 
