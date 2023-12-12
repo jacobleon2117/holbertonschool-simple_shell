@@ -8,6 +8,7 @@
 - `Files`: <i>Files used to make the simple shell</i>
 - `Headers | Constants`: <i>Headers and Constants</i>
 - `Installation | Compilation`: <i>How to install and compile this code</i></details>
+- `FlowChart`: <i>12345</i></details>
 
 <h1 align="center">Introduction</h1>
 
@@ -35,3 +36,5 @@
 ```
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 ```
+<h1 align="center">FlowChart</h1>
+
