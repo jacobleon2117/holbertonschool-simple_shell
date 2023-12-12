@@ -7,7 +7,7 @@
 - `Introduction`: <i>An introduction to the simple shell</i>
 - `Files`: <i>Files used to make the simple shell</i>
 - `Headers`: <i>Headers Used</i>
-- `Installationnstall/Compilation`: <i>How to install and compile this code</i></details>
+- `Installation | Compilation`: <i>How to install and compile this code</i></details>
 
 <h1 align="center">Introduction</h1>
 
@@ -25,7 +25,7 @@
 | #include  |  <stdlib.h>  |
 | #include  |  <string.h>  |
 
-<h1 align="center">Installationnstall | Compilation</h1>
+<h1 align="center">Installation | Compilation</h1>
 
 ```
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
