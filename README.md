@@ -18,7 +18,7 @@
 
 <h1 align="center">Headers</h1>
 
-| Headers | |
+| Headers | Constants |
 | ------------- | ------------- |
 | #include  |  "shell_commands.h"  |
 | #include  |  <stdio.h>  |
