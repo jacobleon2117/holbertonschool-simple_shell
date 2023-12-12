@@ -23,7 +23,7 @@
 
 
 
-<h1 align="center">Installationnstall/Compilation</h1>
+<h1 align="center">Installationnstall | Compilation</h1>
 
 ```
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
