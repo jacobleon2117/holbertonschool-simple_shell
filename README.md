@@ -11,6 +11,13 @@
 
 <h1 align="center">Headers</h1>
 
+| Headers | |
+| ------------- | ------------- |
+| #include  |  "shell_commands.h"  |
+| #include  |  <stdio.h>  |
+| #include  |  <stdlib.h>  |
+| #include  |  <string.h>  |
+
 <details><summary>Table of Contents</summary>
   
 - `Introduction`: <i>An introduction to the simple shell</i>
