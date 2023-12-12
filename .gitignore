@@ -1,0 +1,6 @@
+# Ignore executables
+hsh
+shell
+
+# Ignore object files
+*.o
