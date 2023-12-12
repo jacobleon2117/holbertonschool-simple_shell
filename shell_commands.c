@@ -10,19 +10,10 @@ void execute_command(char *command) {
 
     if (pid == 0) {
         // Child process
-        char *commandCopy = malloc(strlen(command) + 1); // +1 for the null terminator
-        if (commandCopy == NULL) {
-            perror("Memory allocation failed");
-            exit(EXIT_FAILURE);
-        }
-        /* Copies the command string to the newly allocated memory. */
-        strcpy(commandCopy, command);
-        /* Replaces the current process with a new program */
-        execlp(commandCopy, commandCopy, (char *)NULL);
-        
-         // If execlp fails, print an error and exit
+        execlp(command, command, (char *)NULL);
+
+        // If execlp fails, print an error and exit
         perror("Execution failed");
-        free(commandCopy); // Release the allocated memory
         exit(EXIT_FAILURE);
     } else if (pid < 0) {
         /* Fork failed */
