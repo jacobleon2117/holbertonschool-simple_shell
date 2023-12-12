@@ -16,14 +16,14 @@
 - `Introduction`: <i>An introduction to the simple shell</i>
 - `Files`: <i>Files used to make the simple shell</i>
 - `Headers`: <i>Headers Used</i>
-- `Complier`: <i>How to compile the code</i></details>
+- `Installationnstall/Compilation`: <i>How to install and compile this code</i></details>
 
 
 
 
 
 
-<h1 align="center">Complier</h1>
+<h1 align="center">Installationnstall/Compilation</h1>
 
 ```
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
