@@ -32,6 +32,8 @@
 
 <h1 align="center">FlowChart</h1>
 
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/85044b52-deef-498d-9a5e-56b703418cfc" id="mtzVLzHJV5FX"></iframe></div>
+
 <h1 align="center">Installation | Compilation</h1>
 
 <h3 align="center">Fork this repo</h3>
