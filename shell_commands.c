@@ -15,9 +15,9 @@ void execute_command(char *command) {
             perror("Memory allocation failed");
             exit(EXIT_FAILURE);
         }
-
+        /* Copies the command string to the newly allocated memory. */
         strcpy(commandCopy, command);
-
+        /* Replaces the current process with a new program */
         execlp(commandCopy, commandCopy, (char *)NULL);
         
          // If execlp fails, print an error and exit
