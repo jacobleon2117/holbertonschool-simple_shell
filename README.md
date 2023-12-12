@@ -16,7 +16,7 @@
 - `Introduction`: <i>An introduction to the simple shell</i>
 - `Files`: <i>Files used to make the simple shell</i>
 - `Headers`: <i>Headers Used</i>
-- `Compier`: <i>How to compile the code</i></details>
+- `Complier`: <i>How to compile the code</i></details>
 
 
 
