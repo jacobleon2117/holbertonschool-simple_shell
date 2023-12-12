@@ -6,7 +6,7 @@
   
 - `Introduction`: <i>An introduction to the simple shell</i>
 - `Files`: <i>Files used to make the simple shell</i>
-- `Headers`: <i>Headers Used</i>
+- `Headers | Constants`: <i>Headers Used</i>
 - `Installation | Compilation`: <i>How to install and compile this code</i></details>
 
 <h1 align="center">Introduction</h1>
@@ -16,7 +16,7 @@
 
 <h1 align="center">Files</h1>
 
-<h1 align="center">Headers</h1>
+<h1 align="center">Headers | Constants</h1>
 
 | Headers | Constants |
 | ------------- | ------------- |
