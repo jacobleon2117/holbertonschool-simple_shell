@@ -38,5 +38,4 @@
 ```
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 ```
-<h1 align="center">FlowChart</h1>
 
