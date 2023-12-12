@@ -7,8 +7,8 @@
 - `Introduction`: <i>An introduction to the simple shell</i>
 - `Files`: <i>Files used to make the simple shell</i>
 - `Headers | Constants`: <i>Headers and Constants</i>
-- `Installation | Compilation`: <i>How to install and compile this code</i></details>
 - `FlowChart`: <i>12345</i></details>
+- `Installation | Compilation`: <i>How to install and compile this code</i></details>
 
 <h1 align="center">Introduction</h1>
 
@@ -30,6 +30,8 @@
 
 <h3 align="center">Fork this repo</h3>
 <h3 align="center">https://github.com/jacobleon2117/holbertonschool-simple_shell</h3>
+
+<h1 align="center">FlowChart</h1>
 
 <h3 align="center">Use this code to compile the program</h3>
 
