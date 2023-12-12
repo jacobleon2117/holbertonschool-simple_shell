@@ -10,7 +10,7 @@ void execute_command(char *command) {
    char *token;
    int i = 0;
 
-   // Parse the command into a program name and arguments
+   /* Parse the command into a program name and arguments */
    token = strtok(command, " ");
    while (token != NULL) {
        args[i] = token;
@@ -22,10 +22,10 @@ void execute_command(char *command) {
    pid_t pid = fork();
 
    if (pid == 0) {
-       // Child process
+       /* Child process */
        execvp(args[0], args);
 
-       // If execvp fails, print an error and exit
+       /* If execvp fails, print an error and exit */
        perror("Execution failed");
        exit(EXIT_FAILURE);
    } else if (pid < 0) {
