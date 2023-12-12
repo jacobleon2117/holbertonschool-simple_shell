@@ -12,8 +12,8 @@
 <details><summary>Table of Contents</summary>
   
 - `Introduction`: <i>An introduction to the simple shell</i>
-- `Headers`: <i>Headers Used</i></details>
-
+- `Headers`: <i>Headers Used</i>
+- `Compier`: <i>How to compile the code</i></details>
 
 
 
