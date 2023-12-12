@@ -31,6 +31,7 @@
 <h3 align="center">https://github.com/jacobleon2117/holbertonschool-simple_shell</h3>
 
 <h3 align="center">Use this code to compile the program</h3>
+
 ```
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 ```
