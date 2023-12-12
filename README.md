@@ -27,7 +27,7 @@
 
 <h1 align="center">Installation | Compilation</h1>
 
-<h2 align="center">Fork this repo</h2>
+<h3 align="center">Fork this repo</h3>
 <h3 align="center">https://github.com/jacobleon2117/holbertonschool-simple_shell</h3>
 
 
