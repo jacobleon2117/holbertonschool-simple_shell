@@ -9,4 +9,5 @@
 
 <details><summary>Table of Contents</summary>
   
-- `Introduction`: <i>An introduction to the simple shell</i></details>
+- `Introduction`: <i>An introduction to the simple shell</i>
+- `Headers`: <i>Headers Used</i></details>
