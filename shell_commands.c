@@ -8,16 +8,16 @@ void execute_command(char *command) {
     pid_t pid = fork();
 
     if (pid == 0) {
-        // Child process
+        /* Child process */
         execlp(command, command, (char *)NULL);
-        // If execlp fails, print an error and exit
+        /* If execlp fails, print an error and exit */
         perror("Execution failed");
         exit(EXIT_FAILURE);
     } else if (pid < 0) {
-        // Fork failed
+        /* Fork failed */
         perror("Fork failed");
     } else {
-        // Parent process
+        /* Parent process */
         int status;
         waitpid(pid, &status, 0);
 
