@@ -20,10 +20,10 @@
 
 | Headers | Constants |
 | ------------- | ------------- |
-| #include  |  "shell_commands.h"  |
-| #include  |  <stdio.h>  |
-| #include  |  <stdlib.h>  |
-| #include  |  <string.h>  |
+|  "shell_commands.h"  | MAX_INPUT_SIZE 1024|
+|  <stdio.h>  |
+|  <stdlib.h>  |
+|  <string.h>  |
 
 <h1 align="center">Installation | Compilation</h1>
 
