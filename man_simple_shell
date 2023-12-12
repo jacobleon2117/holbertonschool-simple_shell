@@ -1,0 +1,26 @@
+.TH HSH 1 "December 2023" "Simple Shell Manual"
+
+.SH NAME
+hsh \- simple shell
+
+.SH SYNOPSIS
+.B hsh
+
+.SH DESCRIPTION
+simple shell is a minimalistic command-line interface that allows users to enter commands for execution.
+
+.PP
+displays a prompt, waits for user input, and executes commands. It supports simple command lines with no advanced features such as semicolons, pipes, or redirections. Commands are expected to be single words, and no arguments are passed to programs.
+
+.PP
+If an executable cannot be found, an error message is printed, and the prompt is displayed again. The shell handles errors during command execution and provides information about the execution status.
+
+.PP
+To exit the shell, enter 'exit' or 'quit'. The shell also handles the "end of file" condition (Ctrl+D).
+
+.SH OPTIONS
+.BR -h, --help
+Display this help message and exit.
+
+.SH AUTHOR
+Written by Jacob Leon <jacobleon2117@gmail.com>
