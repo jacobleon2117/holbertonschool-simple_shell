@@ -5,14 +5,23 @@
 #include <sys/wait.h>
 
 void execute_command(char *command) {
-    /* create a new process */
     pid_t pid = fork();
 
     if (pid == 0) {
-        /* Child process */
-        execlp(command, command, (char *)NULL);
-        /* If execlp fails, print an error and exit */
+        // Child process
+        char *commandCopy = malloc(strlen(command) + 1); // +1 for the null terminator
+        if (commandCopy == NULL) {
+            perror("Memory allocation failed");
+            exit(EXIT_FAILURE);
+        }
+
+        strcpy(commandCopy, command);
+
+        execlp(commandCopy, commandCopy, (char *)NULL);
+        
+         // If execlp fails, print an error and exit
         perror("Execution failed");
+        free(commandCopy); // Release the allocated memory
         exit(EXIT_FAILURE);
     } else if (pid < 0) {
         /* Fork failed */
