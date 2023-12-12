@@ -5,7 +5,7 @@
 <h1 align="center">Introduction</h1>
 
 - `How does a shell work?`: <i>Shells provide a way for you to communicate with the operating system. This communication is carried out either interactively or as a shell script.</i>
-- `How does my simple shell work?`: <i>blah blah blah</i>
+- `How does my simple shell work?`: <i>The simple shell prompts the user for input, reads a command line, and executes the command using execlp. It supports basic commands, handles errors during execution, and displays the prompt again for further input. The user can exit the shell by entering 'exit' or 'quit', and the shell also handles the "end of file" condition (Ctrl+D).</i>
 
 <details><summary>Table of Contents</summary>
   
