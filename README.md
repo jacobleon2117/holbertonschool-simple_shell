@@ -27,7 +27,10 @@
 
 <h1 align="center">Installation | Compilation</h1>
 
+<h4 align="center">Fork this repo</h4>
+https://github.com/jacobleon2117/holbertonschool-simple_shell
+
+
 ```
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 ```
-https://github.com/jacobleon2117/holbertonschool-simple_shell
